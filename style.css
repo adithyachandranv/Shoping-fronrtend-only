@@ -1,0 +1,270 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700;800&display=swap');
+
+ body {
+     margin: 0px;
+     font-family: 'Poppins', sans-serif;
+ }
+
+
+ #main {
+     height: 100vh;
+     width: 100vw;
+     margin-left: 0px;
+
+ }
+
+ #main-container {
+     height: 100vh;
+     width: 100vw;
+     margin: 0px;
+ }
+
+
+ #top-container {
+     margin: 0px;
+     height: 100vh;
+     width: 100vw;
+     background-color: #527853;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+ }
+
+ #nav {
+     font-size: 15px;
+     font-weight: 500;
+     display: block;
+     list-style-type: none;
+     padding: px;
+     color: white;
+ }
+
+ #nav ul {
+     padding-right: 40px;
+ }
+
+
+ #nav li {
+     float: right;
+     list-style-type: none;
+     padding: 10px;
+     cursor: pointer;
+ }
+
+ #top-container img {
+     height: 600px;
+     width: 600px;
+     object-fit: cover;
+     padding-left: 580px;
+     padding-top: 0px;
+     position: absolute;
+ }
+
+ #inner-top {
+     background-color: #F9E8D9;
+     border-radius: 20px;
+     height: 90vh;
+     width: 90vw;
+     display: flex;
+     flex-direction: column;
+ }
+
+
+ #inner-top #heading {
+     padding-top: 40px;
+     padding-left: 80px;
+     font-size: 50px;
+ }
+
+ #inner-top #shop {
+     font-weight: lighter;
+     font-size: 30px;
+     border-radius: 10px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 50px;
+     width: 200px;
+     background-color: #EE7214;
+     color: white;
+     border: none;
+     cursor: pointer;
+ }
+
+ #middle-container {
+     height: 100vh;
+     width: 100vw;
+     background-color: #527853;
+     display: inline-block;
+     align-items: center;
+     padding-top: 70px;
+     padding-left: 70px;
+
+ }
+
+ #middle-container #first {
+     display: inline-block;
+     height: 300px;
+     width: 300px;
+     background-color: rgb(45, 45, 45);
+     border-radius: 20px;
+
+ }
+
+
+ #middle-container #second {
+     display: inline-block;
+     height: 300px;
+     width: 300px;
+     background-color: rgb(192, 192, 192);
+     padding-left: 30px;
+     border-radius: 20px;
+     margin-left: 30px;
+ }
+
+ #middle-container #third {
+     display: inline-block;
+     height: 300px;
+     width: 300px;
+     background-color: rgb(66, 17, 66);
+     padding-left: 30px;
+     border-radius: 20px;
+     margin-left: 30px;
+ }
+
+ #middle-container #fourth {
+     display: inline-block;
+     height: 300px;
+     width: 300px;
+     background-color: rgb(255, 255, 117);
+     padding-left: 30px;
+     border-radius: 20px;
+     margin-left: 30px;
+ }
+
+ #middle-container .image {
+     position: absolute;
+     padding-top: 30px;
+     padding-left: 0px;
+     object-fit: cover;
+     height: 200px;
+     width: 300px;
+
+ }
+
+ .writing {
+     position: absolute;
+     padding-left: 20px;
+     padding-top: 170px;
+     font-size: 30px;
+     color: rgb(123, 123, 123);
+ }
+
+ #middle-container #second img {
+     position: absolute;
+     padding-top: 20px;
+     padding-left: 10px;
+     object-fit: fill;
+     height: 250px;
+     width: 250px;
+ }
+
+ #second .writing {
+     color: rgb(63, 63, 63);
+ }
+
+ #third .writing {
+     padding-top: 175px;
+     color: rgb(255, 97, 97);
+     font-size: 27px;
+ }
+
+ #fourth .writing {
+     color: violet;
+     font-size: 27px;
+     padding-left: 5px;
+ }
+
+ .img-container:active {
+     height: 400px;
+     width: 400px;
+ }
+
+ #head-middle {
+     font-size: 100px;
+     color: rgb(228, 228, 228);
+     padding-top: 10px;
+     padding-left: 50px;
+     padding-bottom: 0px;
+
+ }
+
+ hr {
+     padding-left: 20px;
+ }
+
+ #arrow {
+     margin: 0;
+
+     padding-top: 0px;
+     padding-left: 650px;
+     position: absolute;
+     height: 70px;
+     width: 70px;
+     color: white;
+ }
+
+ #last-container {
+     height: 95vh;
+     width: 100vw;
+     background-color: #87b4f7;
+ }
+
+ #last-img {
+     position: absolute;
+     object-fit: contain;
+     height: 660px;
+     width: 570px;
+ }
+
+ #middleware {
+     height: 50vh;
+     width: 100vw;
+     background-color: rgb(255, 255, 255);
+ }
+
+ #bottom {
+     padding-left: 500px;
+     font-size: 150px;
+     padding-top: 260px;
+     position: absolute;
+     color: #193d1a;
+     line-height: 150px;
+ }
+
+ #bottom p {
+     font-size: 10px;
+ }
+
+ #last-container p {
+     position: absolute;
+     font-size: 30px;
+     padding-left: 505px;
+     padding-top: 480px;
+ }
+
+ #last-container button {
+     position: absolute;
+     margin-top: 570px;
+     margin-left: 505px;
+     height: 40px;
+     width: 110px;
+     font-family: inherit;
+     font-weight: 500;
+     border-radius: 10px;
+     background-color: rgb(44, 44, 44);
+     color: white;
+     border: none;
+     cursor: pointer;
+ }
